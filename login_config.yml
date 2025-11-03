@@ -1,0 +1,19 @@
+credentials:
+  usernames:
+    admin:
+      email: admin@example.com
+      name: Administrator
+      password: admin123  # You can change this to your own password
+    user1:
+      email: user1@example.com
+      name: User One
+      password: user123
+
+cookie:
+  expiry_days: 30
+  key: some_signature_key
+  name: finding_missing_person_cookie
+
+preauthorized:
+  emails:
+    - admin@example.com
